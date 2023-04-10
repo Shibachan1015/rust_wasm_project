@@ -1,0 +1,25 @@
+[package]
+name = "trunk-template"
+version = "0.1.0"
+edition = "2021"
+description = "Template for starting a Yew project using Trunk"
+readme = "README.md"
+repository = "https://github.com/yewstack/yew-trunk-minimal-template"
+license = "MIT OR Apache-2.0"
+keywords = ["yew", "trunk"]
+categories = ["gui", "wasm", "web-programming"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[dependencies]
+yew = { version="0.20", features=["csr"] }
+wasm-bindgen = "0.2.84"
+#serde = {version = "1.0.158", features = ["derive"]}
+#strum = "0.24.1"
+#strum_macros = "0.24.3"
+#gloo = "0.8"
+
+#[dependencies.web-sys]
+#version = "0.3"
+#features = [
+#    "HtmlInputElement"
+#]
